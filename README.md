@@ -5,7 +5,7 @@ This module connect with ip-api.com and return geolocation (County, city, lat, l
 VPN or Tor exit), hosting (if ip is hosting, colocated or data center) and query.
 
 
-Before install, create a dictory Spiderfoot
+Before install, create a dictory for install tool and my module.
 
 ## Install and run
 First you must need spiderfoot tool. 
