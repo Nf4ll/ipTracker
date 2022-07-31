@@ -74,7 +74,7 @@ class sfp_ipTracker(SpiderFootPlugin):
             print(f"We use the data: {eventData}")
 
             #Conect to ip-api with fields in query parameters   
-            ipData = subprocess.run(f'curl ip-api.com/json/172.217.17.3?fields=30605273', shell=True, text=True, capture_output=True) #
+            ipData = subprocess.run(f'curl ip-api.com/json/{eventData}?fields=30605273', shell=True, text=True, capture_output=True) #
             
             #Get atributes from http request
             ipList = re.findall('"([^{]*)"' , str(ipData))
