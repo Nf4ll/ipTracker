@@ -19,4 +19,4 @@ git clone https://github.com/Nf4ll/ipTracker.git
 cd ipTracker spiderfoot/modules
 ```
 
-Now, you will run and select my module and start the scan.
+Now, you will run, select my module and start the scan.
