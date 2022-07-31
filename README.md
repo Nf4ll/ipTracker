@@ -16,7 +16,7 @@ https://github.com/smicallef/spiderfoot
 ## Install ipTracker
 ```
 git clone https://github.com/Nf4ll/ipTracker.git 
-cd ipTracker spiderfoot/modules
+cp sfp_ipTracker.py ../spiderfoot/modules
 ```
 
 Now, you will run, select my module and start the scan.
